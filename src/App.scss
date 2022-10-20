@@ -1,0 +1,241 @@
+//hero section
+@media  screen and (max-width:600px)
+{
+  .heading1
+  {
+    font-weight: bolder ;
+    font-size: 40px !important;
+    color: #E6007A !important;
+    margin-top: 10px !important;
+    
+  }
+}
+.hero-section
+{
+  
+  margin-top: 20px;
+  h1
+  {
+    
+    font-weight: 700 ;
+    font-size: 4rem ;
+  }
+  .btn
+  {
+    border: 2px solid #E6007A !important;
+    color: #E6007A;
+  }
+  .btn:hover
+  {
+    background-color: #E6007A;
+    color: white;
+  }
+
+  .col2
+  {
+    background-image:url(./Media/xcm-animation-inner.png);
+    background-position: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+
+//network-section
+.network-section
+{
+  .img1
+  {
+    width: 10%;
+  }
+  .urow
+  {
+    margin-top: 7rem;
+    padding: 30px;
+  }
+  .btn
+  {
+    border: 2px solid #E6007A !important;
+    color: #E6007A;
+  }
+  .btn:hover
+  {
+    background-color: #E6007A;
+    color: white;
+  }
+}
+
+
+//powering-section
+.powering-section
+{
+  background-color: black;
+  color: white;
+
+  .btn
+  {
+    border: 2px solid #E6007A !important;
+    color: #E6007A;
+  }
+  .btn:hover
+  {
+    background-color: #E6007A;
+    color: white;
+  }
+}
+
+
+//Protocole-section
+.Protocole-section
+{
+  background-color: #E6007A;
+  color: white;
+  h1{
+    padding: 50px !important;
+    font-size: 3rem;
+  }
+  .img1{
+    margin-bottom: 7rem;
+  }
+}
+
+//founded-section
+.founded-section
+{
+  background-image: url(./Media/web3-summit-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+  h1{
+    font-weight: bold;
+    font-size: 4rem;
+  }
+
+  .btn
+  {
+    border: 2px solid #E6007A !important;
+    color: #E6007A;
+    color: white;
+  }
+  .btn:hover
+  {
+    background-color: #E6007A;
+    color: white;
+    
+  }
+}
+
+
+//belog-section
+.belog-section
+{
+  .card-body{
+  padding: 0px;
+}
+.img1
+{
+  width: 10%;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.row3
+{
+  h1{
+    margin-top: 5rem;
+  }
+  .btn
+  {
+    border: 2px solid #E6007A !important;
+    color: black;
+  }
+  .btn:hover
+  {
+    background-color: #E6007A;
+    color: white;
+    
+  }
+}
+}
+
+//footer section
+.footer-section
+{
+  background-color: black;
+  a{
+    text-decoration: none;
+  }
+  .icons
+  {
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .btn
+  {
+    border: 2px solid #E6007A !important;
+    color: white;
+  }
+  .btn:hover
+  {
+    background-color: #E6007A;
+    color: white;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//faqs start
+
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+  
+    margin-bottom: 2rem;
+    background-color: white;
+    
+  }
+  .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+    padding-left: 24px;
+  }
+  
+  .faqs
+  {
+    // background-image: url(./Media/bg3.png);
+    background-color: burlywood;
+    padding-top: 60px;
+  }
+  //Faqs end

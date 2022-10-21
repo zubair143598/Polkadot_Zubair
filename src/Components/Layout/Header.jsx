@@ -152,13 +152,13 @@ const Header = () => {
       <nav className="navbar header  navbar-expand-lg bg-light">
         <hr />
         <div className="container">
-          <a className=" nav-link active" aria-current="page" href="#">
+          <Link className=" nav-link active" aria-current="page" to="home">
             <img
               src="./Assists/logo-polkadot.svg"
               alt=""
               className="logo p-1  w-50 "
             />
-          </a>
+          </Link>
 
           <button
             className=" color navbar-toggler"
@@ -177,13 +177,13 @@ const Header = () => {
                 <Link
                   className="nav-link fs-5 clr text-black"
                   aria-current="page"
-                  to="Home"
+                  to="technology"
                 >
                   Technology
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link clr fs-5 text-black" to="OurTeam">
+                <Link className="nav-link clr fs-5 text-black" to="community">
                   Community
                 </Link>
               </li>

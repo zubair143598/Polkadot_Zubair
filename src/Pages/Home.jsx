@@ -5,6 +5,7 @@ import Hero from '../Components/Elements/Hero';
 import Network from '../Components/Elements/Network';
 import Powering from '../Components/Elements/Powering';
 import Protocole from '../Components/Elements/Protocole';
+import SecurityModel from '../Components/Elements/SecurityModel';
 // import Faqs from '../Components/Utils/Faqs'
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
     <Protocole/>
     <Founded/>
     <Belog/>
+    <SecurityModel/>
 
 
     {/* <Faqs/> */}

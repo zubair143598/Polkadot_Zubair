@@ -8,7 +8,7 @@ const JoinCommunity = () => {
           <div className="col-md-3"></div>
           <div className="col-md-6">
             <h1>Join the Polkadot community</h1>
-            <p>
+            <p className="fs-5">
               Polkadot is a 100% open-source project created to enable a
               decentralized web and better society. Anyone can contribute.
             </p>

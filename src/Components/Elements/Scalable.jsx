@@ -8,7 +8,7 @@ const Scalable = () => {
           <div className="row my-5 ">
             <div className="col-md-2"></div>
             <div className="col-md-8 text-center">
-              <h1>
+              <h1 className="heading">
                 A scalable, interoperable & secure network protocol for the next
                 web
               </h1>

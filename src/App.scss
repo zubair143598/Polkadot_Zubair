@@ -232,21 +232,119 @@
 }
 
 
+//Roadmap-section
+.Roadmap-section
+{
+  background-color: #E6007A;
+.unb
+{
+  font-family: "Unbounded", sans-serif !important;;
+}
+.btn
+  {
+    border: 2px solid white !important;
+    color: white;
+  }
+  .btn:hover
+  {
+    color: #E6007A;
+    background-color: white;
+    
+  }
+  
+}
+
+
+//TeamsBuildExp-section
+.TeamsBuildExp-section
+{
+  .linkstyle
+  {
+    text-decoration-color: #E6007A;
+  
+  }
+  .card
+  {
+    height: 100%;
+    // margin-top: 20px;
+  }
+  .card-body
+  {
+    font-size: 19px;
+    margin: 0px;
+  }
+  .col-md-4
+  {
+    margin-top: 10px;
+  }
+  .bb
+  {
+    margin-bottom: 8rem;
+  }
+  .btn
+  {
+    border: 2px solid #E6007A !important;
+    color: #E6007A;
+  }
+  .btn:hover
+  {
+    background-color: #E6007A;
+    color: white;
+    
+  }
+  
+}
+
+//scalable-section
+.scalable-section
+{
+  .heading
+  {
+    font-weight: 900!important;
+    font-size:67px;
+    margin: 5rem 0;
+  }
+}
 
 
 
 
+//JoinCommunity-section
+.JoinCommunity-section
+{
+  h1
+  {
+    font-weight: 900!important;
+    font-size:67px;
+    margin: 5rem 0 0 2rem;
+  }
+  p{
+    margin-bottom: 10rem;
+  }
+}
 
 
+//ComBanner1-section
+@media  screen and (min-width: 768px)
+{
 
-
-
-
-
-
-
-
-
+}
+.ComBanner1-section
+{
+  .col-md-4
+  {
+    margin-top: -45px !important;
+  }
+  .colorIcon
+  {
+    color: #E6007A;
+  }
+  .banner-section
+  {
+    background-color: black;
+    height: 50rem;
+  }
+}
 
 
 

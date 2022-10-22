@@ -1,7 +1,7 @@
 import React from "react";
 
 const Parachains = () => {
-  return (
+  return (<>
     <div className="Parachains-section bg-black">
       <div className="container text-white ">
         <div className="row">
@@ -46,6 +46,18 @@ const Parachains = () => {
         </div>
       </div>
     </div>
+    <div className="netglos-section">
+        <div className="container text-center">
+            <div className="row">
+                <div className="col-md-3"></div>
+                <div className="col-md-7  text-white my-5">
+                    <span className='p-md-5 fs-5'><h1 className='mt-5 mx-5 p-2 '>Groundbreaking Technology</h1>
+                    <p className='mb-5'>Polkadot is solving many of the problems that have held back blockchain technology so far — all in one place, without compromising..</p></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </>
   );
 };
 

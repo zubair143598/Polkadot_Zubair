@@ -133,13 +133,14 @@ const Header = () => {
                     <AiOutlineTwitter size={30} className="p-1 border rounded-5 border-dark m-1" />
                   </a>
                 </li>
-                <li>
+                <li className=" border p-1 border-dark rounded-5">
                   <a
                     id="support-link"
                     href="https://support.polkadot.network"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-dark font-weight-bold"
+                    className="text-dark  p-2 font-weight-bold"
+                    style={{textDecoration:"none"}}
                   >
                     Support
                   </a>
@@ -151,8 +152,8 @@ const Header = () => {
       </nav>
       <nav className="navbar header  navbar-expand-lg bg-light">
         <hr />
-        <div className="container">
-          <Link className=" nav-link active" aria-current="page" to="home">
+        <div className="container position-sticky">
+          <Link className="  nav-link active" aria-current="page" to="home">
             <img
               src="./Assists/logo-polkadot.svg"
               alt=""
@@ -188,24 +189,24 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 clr text-black" to="Swap">
+                <Link className="nav-link fs-5 clr text-black" to="About">
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link fs-5 clr text-black" href="#">
+                <Link className="nav-link fs-5 clr text-black" to="Blog">
                   Blog
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link fs-5 clr text-black" href="#">
+                <Link className="nav-link fs-5 clr text-black" to="Build">
                   Build
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link fs-5 clr text-black" href="#">
+                <Link className="nav-link fs-5 clr text-black" to="Contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

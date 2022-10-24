@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <ul className="list-unstyled">
               <li className="py-0 py-md-1">
                 <h4 className="mt-5">
@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <ul className="list-unstyled">
               <li className="py-0 py-md-1">
                 <h4 className="mt-5">

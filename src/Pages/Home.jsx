@@ -1,5 +1,5 @@
 import React from 'react'
-import Belog from '../Components/Elements/Belog';
+import mainBelog from '../Components/Elements/mainBelog';
 import Founded from '../Components/Elements/Founded';
 import Hero from '../Components/Elements/Hero';
 import Network from '../Components/Elements/Network';
@@ -16,7 +16,7 @@ const Home = () => {
     <Powering/>
     <Protocole/>
     <Founded/>
-    <Belog/>
+    <mainBelog/>
     <SecurityModel/>
 
 

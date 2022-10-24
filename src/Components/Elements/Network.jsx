@@ -4,10 +4,10 @@ const Network = () => {
   return (
     <div className="network-section">
       <div className="container">
-        <div className="row">
-          <div className="col-4  urow ">
-            <img src="./Assists/home-icon1.svg" className="img1" alt="" />
-            <h3 className="mt-3">True interoperability</h3>
+        <div className="row rowcent">
+          <div className="col-md-4  urow ">
+            <img src="./Assists/home-icon1.svg" className="img2" alt="" />
+            <h3 className="mt-md-3">True interoperability</h3>
             <p className="mt-3">
               Polkadot enables cross-blockchain transfers of any type of data or
               asset, not just tokens. Connecting to Polkadot gives you the
@@ -15,9 +15,9 @@ const Network = () => {
               Polkadot network.
             </p>
           </div>
-          <div className="col-4  urow">
-            <img src="./Assists/home-icon2.svg" className="img1" alt="" />
-            <h3 className="mt-3">Economic & transactional scalability</h3>
+          <div className="col-md-4  urow">
+            <img src="./Assists/home-icon2.svg" className="img2" alt="" />
+            <h3 className="mt-md-3">Economic & transactional scalability</h3>
             <p className="mt-3">
               Polkadot provides unprecedented economic scalability by enabling a
               common set of validators to secure multiple blockchains. Polkadot
@@ -25,8 +25,8 @@ const Network = () => {
               across multiple parallel blockchains.
             </p>
           </div>
-          <div className="col-4  urow">
-            <img src="./Assists/home-icon3.svg" className="img1" alt="" />
+          <div className="col-md-4  urow">
+            <img src="./Assists/home-icon3.svg" className="img2" alt="" />
             <h3 className="mt-3">Easy blockchain innovation</h3>
             <p className="mt-3">
               Create a custom blockchain in minutes using the Substrate
@@ -35,8 +35,8 @@ const Network = () => {
               Polkadot's network grow.
             </p>
           </div>
-          <div className="col-4">
-            <img src="./Assists/home-icon4.svg" className="img1" alt="" />
+          <div className="col-md-4">
+            <img src="./Assists/home-icon4.svg" className="img2" alt="" />
             <h3 className="mt-3">High energy efficiency</h3>
             <p className="mt-3">
               Polkadot consumes a small fraction of the energy used by
@@ -47,8 +47,8 @@ const Network = () => {
               research.
             </p>
           </div>
-          <div className="col-4">
-            <img src="./Assists/home-icon5.svg" className="img1" alt="" />
+          <div className="col-md-4">
+            <img src="./Assists/home-icon5.svg" className="img2" alt="" />
             <h3 className="mt-3">Security for everyone</h3>
             <p className="mt-3">
               Polkadot's novel data availability and validity scheme allows
@@ -57,8 +57,8 @@ const Network = () => {
               security.
             </p>
           </div>
-          <div className="col-4">
-            <img src="./Assists/home-icon6.svg" className="img1" alt="" />
+          <div className="col-md-4">
+            <img src="./Assists/home-icon6.svg" className="img2" alt="" />
             <h3 className="mt-3">User-driven governance</h3>
             <p className="mt-3">
               Polkadot has a sophisticated governance system where all

@@ -6,7 +6,7 @@ const Protocole = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-5">
-            <h1 className="p-3 mt-5">
+            <h1 className="p-3 protocolheading mt-5">
               An open-source protocol built for everyone
             </h1>
           </div>
@@ -23,31 +23,31 @@ const Protocole = () => {
           </div>
         </div>
         <div className="row text-center">
-          <div className="col-md-3">
+          <div className="col-md-3 col-4">
             <img
               src="./Assists/logo-circle-parity-white.svg"
-              className="w-25 img1"
+              className="img1"
               alt=""
               />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-4">
             <img
               src="./Assists/logo-circle-chainsafe-white.svg"
-              className="w-25 img1"
+              className=" img1"
               alt=""
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-4">
             <img
               src="./Assists/logo-circle-soramitsu-white.svg"
-              className="w-25 img1"
+              className=" img1"
               alt=""
               />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-4">
             <img
               src="./Assists/logo-circle-polkadot-js-white.svg"
-              className="w-25  img1"
+              className=" img1"
               alt=""
             />
           </div>

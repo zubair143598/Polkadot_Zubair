@@ -1,6 +1,6 @@
 import React from "react";
 
-const Belog = () => {
+const mainBelog = () => {
   return (
     <div className="belog-section">
       <div className="container">
@@ -95,4 +95,4 @@ const Belog = () => {
   );
 };
 
-export default Belog;
+export default mainBelog;

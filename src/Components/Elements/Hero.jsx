@@ -23,16 +23,38 @@ const Hero = () => {
               Learn Cross-Chain
             </a>
           </div>
-          <div className="col-md-6  ">
-            <ScrollRotate method={"perc"}>
-              <span>
+          <div className="col-md-6 col-12 d-flex justify-content-center position-relative mt-5  ">
+            <ScrollRotate loops={2} method={"1px"} from={270} to={90}>
+              <img
+                src="./Assists/xcm-animation-inner.png"
+                className="img-fluid spinimg hero_before_img"
+                style={{ width: "400px" }}
+                alt=" no img"
+              />
+            </ScrollRotate>
+            <div
+              className="position-absolute hero_after_img"
+              style={{ top: 0 }}
+            >
+              <ScrollRotate loops={2} method={"1px"} from={90} to={270}>
                 <img
                   src="./Assists/xcm-animation-outer.svg"
+                  style={{ width: "400px" }}
+                  className="spinimg"
+                  alt=""
+                />
+              </ScrollRotate>
+            </div>
+
+            {/* <ScrollRotate method={"perc"}>
+              <span>
+                <img
+                  
                   className="w-75 col2 "
                   alt=""
                 />
               </span>
-            </ScrollRotate>
+            </ScrollRotate> */}
 
             {/* <img src="./Assists/xcm-animation-inner.png" className='w-75 ion-absolute'  alt="" /> */}
           </div>

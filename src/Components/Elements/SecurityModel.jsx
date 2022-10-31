@@ -24,20 +24,21 @@ const SecurityModel = () => {
                 their blockchain from day one
               </p>
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-2"></div>
+            <div className="col-md-4 mt-5 d-flex justify-content-center">
               <img
                 src="./Assists/dg-security-model.svg"
                 className="p-5"
-                style={{ width: "45%", marginTop: "7rem" }}
+                style={{ width: "70%"}}
                 alt=""
               />
             </div>
 
-            <div className="col-md-4 text-end mt-5">
+            <div className="col-md-4 text-end d-flex justify-content-center mt-5">
               <img
                 src="./Assists/dg-xcm.svg"
                 className="p-5"
-                style={{ width: "70%", marginTop: "7rem" }}
+                style={{ width: "70%" }}
                 alt=""
               />
             </div>
@@ -75,31 +76,33 @@ const SecurityModel = () => {
               <p className="px-md-5" style={{ fontSize: "19px" }}>
                 Polkadot’s Nominated Proof-of-stake (NPoS) model uses a small
                 fraction of the energy consumed by conventional blockchains, and
-                has the{" "}
+                has the
                 <a href="#" style={{ fontSize: "19px", color: "black" }}>
                   lowest carbon footprint
-                </a>{" "}
-                among proof-of-stake protocols analyzed in{" "}
+                </a>
+                among proof-of-stake protocols analyzed in
                 <a href="#" style={{ fontSize: "19px", color: "black" }}>
                   recent research
                 </a>
                 .
               </p>
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-2"></div>
+
+            <div className="col-md-4 mt-5 d-flex justify-content-center">
               <img
                 src="./Assists/dg-green-energy.svg"
                 className="p-5"
-                style={{ width: "45%", marginTop: "7rem" }}
+                style={{ width: "70%"}}
                 alt=""
               />
             </div>
 
-            <div className="col-md-4 text-end mt-5">
+            <div className="col-md-4 d-flex justify-content-center text-end mt-5">
               <img
                 src="./Assists/dg-governance.svg"
                 className="p-5"
-                style={{ width: "70%", marginTop: "7rem" }}
+                style={{ width: "70%" }}
                 alt=""
               />
             </div>
@@ -152,20 +155,22 @@ const SecurityModel = () => {
                 </a>
               </p>
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-2"></div>
+
+            <div className="col-md-4 d-flex justify-content-center mt-5">
               <img
                 src="./Assists/dg-treasury.svg"
                 className="p-5"
-                style={{ width: "45%", marginTop: "7rem" }}
+                style={{ width: "70%"}}
                 alt=""
               />
             </div>
 
-            <div className="col-md-4 text-end mt-5">
+            <div className="col-md-4 d-flex justify-content-center text-end mt-5">
               <img
                 src="./Assists/dg-consensus.svg"
                 className="p-5"
-                style={{ width: "70%", marginTop: "7rem" }}
+                style={{ width: "70%" }}
                 alt=""
               />
             </div>
@@ -195,7 +200,7 @@ const SecurityModel = () => {
       </div>
       <div className="Roadmap-section">
         <div className="container text-center">
-          <div className="row">
+          <div className="row ">
             <div className="col-md-3"></div>
             <div className="col-md-7  text-white my-5">
               <span className="p-md-5 fs-5">
